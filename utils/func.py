@@ -2,8 +2,7 @@ import json
 
 
 def open_operations():
-    path="/home/user/PycharmProjects/курсовая3/utils/operations.json"
-    file=open(path,encoding="utf-8")
+    file=open("../operations.json", encoding="utf-8")
     filename = json.load(file)
 
     return filename

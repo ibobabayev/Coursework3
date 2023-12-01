@@ -1,8 +1,6 @@
-import json
-from datetime import date
 from utils.func import *
 
-
+#
 # for i in range(5):
 #     x = f"{correct_data()[i]} {description()[i]}"
 #     y = f"{senders_card_type()[i]}{senders_card_number()[i]} -> Счет {receivers_card_number()[i]}"
@@ -12,10 +10,12 @@ from utils.func import *
 #     print(z)
 #     print()
 def main():
-  for i in range(5):
-    x = f"{correct_data()[i]} {description()[i]}\n{senders_card_type()[i]}{senders_card_number()[i]} -> Счет {receivers_card_number()[i]}\n{amount()[i]}  {currency()[i]}\n"
-    print(x)
-    print()
+    for i in range(5):
+        x = f"{correct_data()[i]} {description()[i]}\n{senders_card_type()[i]}{senders_card_number()[i]} -> Счет {receivers_card_number()[i]}\n{amount()[i]}  {currency()[i]}\n"
+        print(x)
+        print()
 
 
 main()
+
+# print("hello")

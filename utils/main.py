@@ -3,7 +3,7 @@ from utils.func import *
 data = correct_data()
 description = description()
 sct = senders_card_type()
-scn = scn()
+scn = senders_card_number()
 rcn = receivers_card_number()
 amount = amount()
 currency = currency()

@@ -1,21 +1,19 @@
 from utils.func import *
 
-#
-# for i in range(5):
-#     x = f"{correct_data()[i]} {description()[i]}"
-#     y = f"{senders_card_type()[i]}{senders_card_number()[i]} -> Счет {receivers_card_number()[i]}"
-#     z = amount()[i] + " " + currency()[i]
-#     print(x)
-#     print(y)
-#     print(z)
-#     print()
+data = correct_data()
+description = description()
+sct = senders_card_type()
+scn = scn()
+rcn = receivers_card_number()
+amount = amount()
+currency = currency()
+
+
 def main():
     for i in range(5):
-        x = f"{correct_data()[i]} {description()[i]}\n{senders_card_type()[i]}{senders_card_number()[i]} -> Счет {receivers_card_number()[i]}\n{amount()[i]}  {currency()[i]}\n"
+        x = f"{data[i]} {description[i]}\n{sct[i]}{scn[i]} -> Счет {rcn[i]}\n{amount[i]} {currency[i]}\n"
         print(x)
         print()
 
 
 main()
-
-# print("hello")

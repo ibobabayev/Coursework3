@@ -81,7 +81,7 @@ def correct_data():
     return cd
 
 
-def scn():
+def senders_card_number():
     date = id_of_maxlist()
     """Функция маскирует номер карты отправителя в формате XXXX XX** **** XXXX"""
     card_numbers = []
